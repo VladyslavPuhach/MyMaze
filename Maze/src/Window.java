@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.util.Random;
 
 class MainWindow extends JFrame {
@@ -10,13 +11,15 @@ class MainWindow extends JFrame {
         setLocation(400,400);
         add(new GameField());
         setVisible(true);
+
     }
 
     public static void main(String[] args) {
-        Random ne = new Random();
-        ne.nextInt();
         MainWindow mw = new MainWindow();
         GameField r1 = new GameField();
+        System.out.println(r1);
 
     }
-}
+    }
+
+
